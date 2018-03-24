@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+body{
+    height: 100%;
+}
+#Tweets{
+    text-align: center;
+    width: 25%;
+    float: left;
+    background-color: #2cffe4;
+    height: 750px;
+}
+#Replies{
+    text-align: center;
+    width: 25%;
+    float: left;
+    background-color: #fff612;
+    height: 750px;
+}
+#Search{
+    text-align: center;
+    width: 25%;
+    float: right;
+    background-color: #546980;
+    height: 750px;
+}
+#Messages{
+    text-align: center;
+    width:25%;
+    float: right;
+    background-color: #52d1ff;
+    height: 750px;
+}
