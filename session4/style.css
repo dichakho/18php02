@@ -1,0 +1,20 @@
+body{
+    margin: 10px;
+    border-style: dotted;
+}
+#container{
+    margin: 20px;
+    margin-right: 40px;
+    border: 5px solid black;
+}
+.slide1{
+
+    margin: 5px;
+    margin-top: 35px;
+    border-style: dotted;
+}
+.slide2{
+    margin: 5px;
+    margin-bottom: 10px;
+    border-style: dotted;
+}
