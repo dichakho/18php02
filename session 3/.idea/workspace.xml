@@ -64,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
+            <state relative-caret-position="756">
               <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style3.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style3.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="126" column="24" lean-forward="false" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="149" column="26" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -146,8 +146,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,12 +214,14 @@
       <workItem from="1521865732154" duration="2362000" />
       <workItem from="1521875632315" duration="671000" />
       <workItem from="1521876806849" duration="4408000" />
-      <workItem from="1521881478012" duration="669000" />
+      <workItem from="1521881478012" duration="788000" />
+      <workItem from="1521882895119" duration="598000" />
+      <workItem from="1521942159106" duration="6835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19960000" />
+    <option name="totallyTimeSpent" value="27512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -500,18 +502,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style3.css">
+    <entry file="file://$PROJECT_DIR$/ex4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="126" column="24" lean-forward="false" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+        <state relative-caret-position="756">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex4.html">
+    <entry file="file://$PROJECT_DIR$/style3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="220">
+          <caret line="149" column="26" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
           <folding />
         </state>
       </provider>
