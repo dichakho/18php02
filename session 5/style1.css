@@ -1,7 +1,7 @@
 #container{
     width: 80%;
     margin: 0 auto;
-    height: 500px;
+    height: 505px;
     border: 2px solid black;
 }
 #header{
@@ -12,15 +12,15 @@
 #header div{
     height: 100px;
     float: left;
-    line-height: 40px;
+    line-height: 50px;
     text-align: center;
 }
-div.hea1{
+.hea1{
     width: 49%;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
-div.hea2{
+.hea2{
     width: 50%;
     border-bottom: 2px solid black;
 }
@@ -37,19 +37,20 @@ div.hea2{
 
     border-bottom: 2px solid black;
 }
-div.se1{
+.se1{
     width: 24%;
     border-right: 2px solid black;
 }
-div.se2{
+.se2{
     width: 24.8%;
-    border-right: 2px solid black;
+
 }
-div.se3{
+.se3{
     width: 25%;
     border-right: 2px solid black;
+    border-left: 2px solid black;
 }
-div.se4{
+.se4{
     width: 25%;
 }
 #sidebar{
@@ -59,51 +60,50 @@ div.se4{
 #sidebar div{
     height: 300px;
     float: left;
-    line-height: 40px;
+    line-height: 150px;
     text-align: center;
 }
-div.si1{
+.si1{
     width: 24%;
     border-right: 2px solid black;
 }
-div.si2{
+.si2{
     width: 75%;
 }
-@media screen and(max-width: 768px){
+@media screen and (max-width: 768px){
+    #container{
+        height: 605px;
+    }
     #section div{
         float: left;
     }
-    div.se1{
+    .se1{
         width: 49%;
     }
-    div.se2{
-        width: 50%;
-    }
-    div.se3{
+    .se2{
         width: 49%;
     }
-    div.se4{
+    .se3{
+        width: 49%;
+        border-left: none;
+    }
+    .se4{
         width: 50%;
     }
 
 }
 @media screen and (max-width: 480px){
-    div.hea1{
+    #container{
+        height: 800px;
+    }
+    .hea1, .hea2,.se1,.se2,.se3,.se4,.si2{
         width: 100%;
     }
-    div.hea2{
-        width: 100%;
+    .se3{
+        border-left: none;
+        border-right: none;
     }
-    div.se1{
-        width: 100%;
-    }
-    div.se2{
-        width: 100%;
-    }
-    div.se3{
-        width: 100%;
-    }
-    div.se4{
-        width: 100%;
+    .si1{
+        display: none;
     }
 }
