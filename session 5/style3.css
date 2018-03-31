@@ -1,0 +1,194 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+#header{
+    background-color: black;
+    height: 60px;
+}
+#header div{
+    height: 50px;
+    margin-right: 2%;
+    float: left;
+}
+div.logo{
+    width: 5%;
+}
+div.menu{
+   width: 90%;
+}
+div.slogan{
+    display: none;
+}
+hr{
+    border-width: 2px;
+    border-style: -moz-bg-inset;
+}
+a{
+    color: black ;
+    text-decoration: none;
+}
+ul li{
+    font-size: smaller;
+    margin-top: -16px;
+    margin-left: 3px;
+    float: left;
+    list-style-type: none;
+    width: 19%;
+    background-color: #ff8a38;
+    height: 60px;
+    line-height: 50px;
+    border-bottom: 1px solid white;
+}
+ul li ul li{
+    width: 200%;
+
+}
+ul li:hover{
+    background-color: #F2FBEF;
+}
+ul ul {
+    z-index: 1;
+    position: absolute;
+    display: none;
+    margin-left: -43px;
+    padding-top: 28px;
+}
+ul li.menu-down:hover ul{
+    display: block;
+}
+li.menu-down ul li {
+    float: none;
+}
+#container{
+    height: 300px;
+}
+#container div{
+    float: left;
+}
+.post1{
+    border-right: 2px solid black;
+    width: 35%;
+}
+.post2, .post3{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.post2-1, .post3-1{
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+}
+#container2 div{
+    margin-bottom: 50px;
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+#footer{
+    color: #F2FBEF;
+    background-color: black;
+    height: 100px;
+    line-height: 30px;
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #header div{
+        height: 50px;
+        margin-right: 2%;
+        float: left;
+    }
+    div.logo{
+        margin-left: 5%;
+        width: 30%;
+    }
+    div.slogan{
+        width: 40%;
+        line-height: 25px;
+        color: #F2FBEF;
+        display: block;
+    }
+    div.menu{
+        display: none;
+    }
+    #container{
+        width: 100%;
+        height: 600px;
+        border-bottom: 2px solid red;
+    }
+    .post1{
+        width: 99%;
+        border-right: 0px;
+        border-bottom: 2px solid red;
+    }
+    .post2, .post3{
+        width: 99%;
+        margin-top: 2%;
+    }
+    #container2{
+        height: 600px;
+    }
+    .post4, .post5, .post6, .post7{
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #header div{
+        height: 50px;
+        margin-right: 2%;
+        float: left;
+    }
+    div.logo{
+        margin-left: 0%;
+        width: 30%;
+    }
+    div.slogan{
+        width: 40%;
+        line-height: 25px;
+        margin-left: 2%;
+        color: #F2FBEF;
+        display: block;
+    }
+    div.menu{
+        display: none;
+    }
+    #container{
+        width: 100%;
+        height: 700px;
+        border-bottom: 2px solid red;
+    }
+    .post1{
+        width: 99%;
+        border-right: 0px;
+        border-bottom: 2px solid red;
+    }
+    .post2, .post3{
+        width: 45%;
+        margin-top: 1%;
+        font-size: xx-small;
+    }
+    .post2-1, .post3-1{
+        float: none;
+    }
+    #container2{
+        height: 800px;
+    }
+    .post4, .post5, .post6, .post7{
+        width: 99% !important;
+        margin-top: 1%;
+        height: 175px;
+    }
+}
+
+
