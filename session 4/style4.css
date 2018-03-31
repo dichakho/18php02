@@ -31,13 +31,15 @@ div.hea5{
 }
 div.sec1{
     width: 15%;
-    height: 480px;
+    height: 453px;
     background-color: rgba(35, 128, 36, 0.56);
+
 }
 div.sec2{
     width: 22%;
     height: 300px;
     background-color: hotpink;
+    margin-bottom: 0%!important;
 }
 div.box1{
     width: 10%;
@@ -108,6 +110,119 @@ div.box14{
     width: 10%;
     height: 130px;
     background-color: gainsboro;
+}
+@media screen and (max-width: 1024px){
+    #header{
+        height: 120px;
+    }
+    #header div{
+        height: 100px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        float: left;
+    }
+    div.hea1{
+        width: 15%;
+        background-color: pink;
+    }
+    div.hea2{
+        width: 70%;
+        background-color: #29d2ff;
+    }
+    div.hea3{
+        display:none;
+    }
+    div.hea4{
+        display:none;
+    }
+    div.hea5{
+        display:none;
+    }
+    #section div{
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 3%;
+    }
+    div.sec1{
+        width: 15%;
+        height: 453px;
+        background-color: rgba(35, 128, 36, 0.56);
+    }
+    div.sec2{
+        width: 22%;
+        height: 288px;
+        background-color: hotpink;
+    }
+    div.box1{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box2{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box3{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box4{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box5{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box6{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box7{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box8{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box9{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box10{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box11{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box12{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box13{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
+    div.box14{
+        width: 10%;
+        height: 130px;
+        background-color: gainsboro;
+    }
 }
 @media screen and (max-width: 960px){
     div.hea1{
