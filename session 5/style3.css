@@ -17,31 +17,62 @@ div.logo{
 div.menu{
    width: 90%;
 }
+div.menumb{
+    display: none;
+}
 div.slogan{
     display: none;
 }
 hr{
     border-width: 2px;
-    border-style: -moz-bg-inset;
+    border-style: dot-dot-dash;
+}
+tr, td, th{
+    border: 1px solid black;
+}
+th{
+    background-color: green;
+}
+#container3{
+    height: 250px;
+}
+#container3 div{
+    float: left;
+
+}
+div.part1{
+    width:49%;
+    margin-right: -60px;
+    margin-left: 40px;
+}
+div .part2 {
+    width: 49%;
+    float: left;
+    padding-left:30px;
+    border-left: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
 }
 a{
     color: black ;
     text-decoration: none;
 }
 ul li{
-    font-size: smaller;
+
     margin-top: -16px;
     margin-left: 3px;
     float: left;
     list-style-type: none;
     width: 19%;
-    background-color: #ff8a38;
+    background-color: green;
     height: 60px;
     line-height: 50px;
     border-bottom: 1px solid white;
 }
 ul li ul li{
-    width: 200%;
+    width: 220%;
 
 }
 ul li:hover{
@@ -92,12 +123,11 @@ li.menu-down ul li {
     height: 100px;
     line-height: 30px;
 }
-@media screen and (max-width: 768px){
-    body{
+@media screen and (max-width: 768px){         /*reponsive 768*/
+    body {
         width: 80%;
         margin: 0 auto;
     }
-
     #header div{
         height: 50px;
         margin-right: 2%;
@@ -105,16 +135,21 @@ li.menu-down ul li {
     }
     div.logo{
         margin-left: 5%;
-        width: 30%;
+        width: 20%;
     }
     div.slogan{
-        width: 40%;
-        line-height: 25px;
-        color: #F2FBEF;
-        display: block;
+        /*width: 40%;*/
+        /*line-height: 25px;*/
+        /*color: #F2FBEF;*/
+        /*display: block;*/
+        display: none;
     }
     div.menu{
-        display: none;
+        display: block;
+        width: 60%;
+    }
+    .menu li{
+        width: 19%;
     }
     #container{
         width: 100%;
@@ -138,31 +173,76 @@ li.menu-down ul li {
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px){                 /*reponsive 480*/
     body{
         width: 80%;
         margin: 0 auto;
     }
-
+    .menuA li{
+        float: none;
+    }
     #header div{
         height: 50px;
         margin-right: 2%;
-        float: left;
+
     }
-    div.logo{
+    div.logo {
+        float: left;
         margin-left: 0%;
-        width: 30%;
+        width: 15%;
     }
     div.slogan{
-        width: 40%;
-        line-height: 25px;
-        margin-left: 2%;
+        float: left;
+        width: 20%;
+        line-height: 57px;
+        margin-left: 22%;
         color: #F2FBEF;
         display: block;
     }
     div.menu{
         display: none;
     }
+    div.menumb{
+        display: block;
+        width: 35%;
+        float: right;
+    }
+    ul li{
+        width: 80%;
+        text-align: center;
+    }
+    ul ul ul.menu-down:hover ul{
+        display: block;
+    }
+    li.menu-down ul li {
+        float: none;
+    }
+    ul li.menumbdown:hover ul{
+        display: block;
+    }
+    ul ul ul li{
+        display:none;
+        margin-left: -100px;
+        width: 500%;
+        height: 50px;
+    }
+    /*li.menumbdown ul li {*/
+        /*float: none;*/
+    /*}*/
+    #container3{
+        height: 476px;
+    }
+
+    div.part1{
+        margin-left: 0px;
+        width: 100%;
+    }
+    div.part2{
+        border-left:0px;
+        margin-top: 2%;
+        margin-left: -42px;
+    }
+
     #container{
         width: 100%;
         height: 700px;
