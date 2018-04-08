@@ -133,13 +133,20 @@ input{
     width: 70%;
 }
 .form1 input{
-    margin-left: 10px;
+    margin-left: 37px;
 }
 .form2 input{
     margin-left: 15px;
 }
 button{
-    margin-left: 50px;
+    margin-left: 200px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    background-color: green;
+    width: 15%;
+    height: 20px;
 }
 @media screen and (max-width: 768px){         /*reponsive 768*/
     body {
