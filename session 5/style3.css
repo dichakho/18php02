@@ -35,21 +35,23 @@ th{
 }
 #container3{
     height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-#container3 div{
-    float: left;
+/*#container3 div{*/
+    /*float: left;*/
+/*}*/
+div.part1{
+    width:39%;
+    /*margin-right: -60px;*/
 
 }
-div.part1{
-    width:49%;
-    margin-right: -60px;
-    margin-left: 40px;
-}
 div .part2 {
-    width: 49%;
-    float: left;
-    padding-left:30px;
-    border-left: 2px solid black;
+    width: 39%;
+    /*float: left;*/
+    /*padding-left:10%;*/
+
 }
 table{
     border-collapse: collapse;
@@ -120,8 +122,24 @@ li.menu-down ul li {
 #footer{
     color: #F2FBEF;
     background-color: black;
-    height: 100px;
+    height: 200px;
     line-height: 30px;
+}
+.form{
+    float: left;
+    width: 50%;
+}
+input{
+    width: 70%;
+}
+.form1 input{
+    margin-left: 10px;
+}
+.form2 input{
+    margin-left: 15px;
+}
+button{
+    margin-left: 50px;
 }
 @media screen and (max-width: 768px){         /*reponsive 768*/
     body {
@@ -146,9 +164,13 @@ li.menu-down ul li {
     }
     div.menu{
         display: block;
-        width: 60%;
+        width: 70%;
+    }
+    ul li ul li{
+        width: 150%;
     }
     .menu li{
+        font-size: smaller;
         width: 19%;
     }
     #container{
