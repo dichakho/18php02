@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex3.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ex3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style3.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style3.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
+            <state relative-caret-position="646">
               <caret line="117" selection-start-line="117" selection-end-line="117" />
             </state>
           </provider>
@@ -117,7 +117,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-419" />
+    <option name="x" value="-420" />
     <option name="y" value="140" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
@@ -127,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,7 +139,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,11 +210,12 @@
       <workItem from="1522463343072" duration="1016000" />
       <workItem from="1523091142790" duration="24000" />
       <workItem from="1523091852336" duration="607000" />
+      <workItem from="1523626214049" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30587000" />
+    <option name="totallyTimeSpent" value="30593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -568,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -598,8 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
+        <state relative-caret-position="646">
           <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>

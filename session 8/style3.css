@@ -1,0 +1,18 @@
+img.move1{
+    float: left;
+    position: relative;
+    animation: moveright 3s infinite;
+    -webkit-animation: moveright 3s infinite;
+}
+img.move2{
+    float: left;
+    margin-left: 500px;
+}
+@keyframes moveright {
+    from{left: 0px;}
+    to{left: 560px;}
+}
+@-webkit-keyframes moveright{
+    from{left: 0px;}
+    to{left: 560px;}
+}
