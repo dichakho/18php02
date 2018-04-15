@@ -80,16 +80,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex5.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ex5.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex6.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ex6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex6.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/style1.css" />
         <option value="$PROJECT_DIR$/ex3.html" />
         <option value="$PROJECT_DIR$/style3.css" />
-        <option value="$PROJECT_DIR$/ex5.html" />
         <option value="$PROJECT_DIR$/ex6.html" />
+        <option value="$PROJECT_DIR$/ex5.html" />
       </list>
     </option>
   </component>
@@ -222,12 +222,12 @@
       <workItem from="1523622931999" duration="1935000" />
       <workItem from="1523711480128" duration="13000" />
       <workItem from="1523711541724" duration="19000" />
-      <workItem from="1523775356983" duration="862000" />
+      <workItem from="1523775356983" duration="1293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24172000" />
+    <option name="totallyTimeSpent" value="24603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -613,6 +613,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ex6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ex4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -622,15 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
