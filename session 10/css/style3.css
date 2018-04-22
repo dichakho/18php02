@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+input{
+    margin-bottom: 20px ;
+}
+#hobbyfemale, #hobbymale{
+    display: none;
+}
