@@ -26,8 +26,8 @@
       <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="3" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
       <file leaf-file-name="ex4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="646">
               <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
             </state>
           </provider>
@@ -93,11 +93,11 @@
         <option value="$PROJECT_DIR$/ex2.html" />
         <option value="$PROJECT_DIR$/New folder/ex3.html" />
         <option value="$PROJECT_DIR$/style3.css" />
-        <option value="$PROJECT_DIR$/style1.css" />
         <option value="$PROJECT_DIR$/ex1.html" />
         <option value="$PROJECT_DIR$/ex4.html" />
         <option value="$PROJECT_DIR$/style4.css" />
         <option value="$PROJECT_DIR$/ex3.html" />
+        <option value="$PROJECT_DIR$/style1.css" />
       </list>
     </option>
   </component>
@@ -108,10 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="600" />
-    <option name="y" value="85" />
+    <option name="x" value="-420" />
+    <option name="y" value="140" />
     <option name="width" value="1400" />
-    <option name="height" value="1010" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,7 +136,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../session 8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -155,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ex4.html">
+  <component name="RunManager" selected="JavaScript Debug.ex1.html">
     <configuration name="ex1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/session 6/ex1.html" />
     <configuration name="ex2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/session 6/ex2.html" />
     <configuration name="ex3.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/session 6/ex3.html" />
@@ -170,9 +170,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ex1.html" />
         <item itemvalue="JavaScript Debug.ex4.html" />
         <item itemvalue="JavaScript Debug.ex3.html (1)" />
-        <item itemvalue="JavaScript Debug.ex1.html" />
         <item itemvalue="JavaScript Debug.ex3.html" />
         <item itemvalue="JavaScript Debug.ex2.html" />
       </list>
@@ -200,11 +200,16 @@
       <workItem from="1523087560675" duration="2789000" />
       <workItem from="1523370000142" duration="12000" />
       <workItem from="1523711528794" duration="27000" />
+      <workItem from="1524580138543" duration="21000" />
+      <workItem from="1524580222326" duration="39000" />
+      <workItem from="1524580380815" duration="79000" />
+      <workItem from="1524652149599" duration="1410000" />
+      <workItem from="1525314384048" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41761000" />
+    <option name="totallyTimeSpent" value="43319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -536,24 +541,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/New folder/ex3.html" />
-    <entry file="file://$PROJECT_DIR$/ex1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style1.css">
+    <entry file="file://$PROJECT_DIR$/ex2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="3" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <caret line="7" column="144" selection-start-line="7" selection-start-column="144" selection-end-line="7" selection-end-column="144" />
         </state>
       </provider>
     </entry>
@@ -571,10 +562,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex2.html">
+    <entry file="file://$PROJECT_DIR$/ex1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="144" selection-start-line="7" selection-start-column="144" selection-end-line="7" selection-end-column="144" />
+        <state relative-caret-position="153">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
         </state>
       </provider>
     </entry>
