@@ -1,8 +1,8 @@
 <?php
 	$hello='Hello World';
-	define('telenum', '0981234899');
+	define('TELENUM', '0981234899');
 	echo $hello.'<br>';
- 	echo telenum.'<br>';
+ 	echo TELENUM.'<br>';
  	$a='123';
  	$b=123;
  	$c=$a+$b;
@@ -103,4 +103,5 @@
 	for ($i=0; $i < $count ; $i++) { 
 		echo $sv[$i].'<br>';
 	}
+	
 ?>
