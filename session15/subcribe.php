@@ -7,7 +7,7 @@
 <body>
 	<form action="" method="post">
 		<label for="name">Họ và tên:</label>
-		<input type="text" id="name" name="name"><br><br>
+		<input type="text" <!-- id="name" --> name="name"><br><br>
 		<label for="email">Email: </label>
 		<input type="Email" id="email" name="email"><br><br>
 		<label for="pwd">Password: </label>
@@ -27,13 +27,9 @@
 			}
 			else{
 				echo "Bạn đã đăng ký thành công";
-				$info = $name."-".$email."-".$pwd."-".$phonenum;
-				$file = fopen("textuser.txt", "a");
+				$info = "$name - $email - $pwd - $phonenum \n";
+				$file = fopen("textuser.txt", "a+");
 				fwrite($file, $info);
-				
-
-
-
 			}
 		}
 	?>
