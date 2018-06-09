@@ -7,7 +7,7 @@
 <body>
 	<form action="" method="post">
 		<label for="name">Họ và tên:</label>
-		<input type="text" <!-- id="name" --> name="name"><br><br>
+		<input type="text"  id="name" name="name"><br><br>
 		<label for="email">Email: </label>
 		<input type="Email" id="email" name="email"><br><br>
 		<label for="pwd">Password: </label>
