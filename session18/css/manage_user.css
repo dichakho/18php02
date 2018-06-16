@@ -1,0 +1,15 @@
+table, th, td{
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+a{
+	text-decoration: none;
+	margin: 10px;
+	background-color: red;
+	border-radius: 25%;	
+	color: white;
+	transition: 0.5s ease all;
+}
+a:hover{
+	background-color: black;
+}

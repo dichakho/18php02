@@ -17,6 +17,7 @@
 	<h1>Sản phẩm</h1>
 	<table border="1">
 		<tr>
+			<th>Select</th>
 			<th>Image</th>
 			<th>product_id</th>
 			<th>categoryID</th>
@@ -28,7 +29,8 @@
 		<?php
 			while ($row = $result->fetch_assoc ()) {
 				echo "<tr>";
-				echo "<td>".  "<img src=".$row['Image'].">"."</td>";
+				echo "<td>"."<input type='checkbox'>"."</td>";
+				echo "<td>".  "<img src=".$row['Image'].">"  ."</td>";
 				echo "<td>".$row['product_id']."</td>";
 				echo "<td>".$row['categoryID']."</td>";
 				echo "<td>".$row['product_name']."</td>";

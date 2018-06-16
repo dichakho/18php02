@@ -16,7 +16,7 @@
 
 			$sql = "DELETE FROM  product WHERE product_id = '$product_id'";
 			$result = $conn->query ( $sql );
-
+			header('Location:../listproduct.php');
 		}
 	?>
 </body>
