@@ -1,0 +1,37 @@
+body{
+    width: 40%;
+    margin: 0 auto;
+
+}
+#header{
+    text-align: center;
+}
+form{
+    border: 2px solid black;
+    box-shadow: 5px 5px 4px 4px;
+
+}
+input{
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.name input{
+    margin-left: 22px;
+}
+.email input{
+    margin-left: 46px;
+}
+.pwd input{
+    margin-left: 23px;
+
+}
+.name input, .phone input, .email input, .pwd input{
+    width: 60%;
+}
+.info{
+    display: flex;
+    margin-top: 10px;
+}
+.city{
+    margin-bottom: 5px;
+}

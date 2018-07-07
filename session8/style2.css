@@ -1,0 +1,32 @@
+#ac div{
+    overflow: hidden;
+    height: 0;
+    transition: height 2s ease-in-out;
+}
+#ac div:target{
+    height: 30px;
+}
+#content{
+    overflow: hidden;
+    border: 1px solid black;
+    height: 20px;
+    transition: height 3s ease-in 1s;
+
+}
+.a1:before{
+    content: "\f09a"
+}
+#content:hover{
+    height: 200px;
+}
+.image1{
+    transition: 2s;
+    margin: 50px;
+}
+.image1:hover{
+    /*transform: rotateX(180deg);*/
+    transform: scaleY(1.3);
+    /*transform: skew(5rad);*/
+    transform-origin: right;
+
+}

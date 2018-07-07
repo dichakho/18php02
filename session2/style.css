@@ -1,0 +1,14 @@
+header{
+    font-size: 30px ;
+    background-color: chocolate;
+    color:navy;
+}
+section{
+    background-color: chartreuse;
+    color:blueviolet;
+}
+footer{
+    font-size: 3em;
+    background-color: antiquewhite;
+    color:green;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Book Hotel</title>
+    <style>
+        div{
+            margin-bottom: 20px ;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="js/common2.js"></script>
+    <form action="">
+        <div>Họ và tên:<input id="name" type="text" required ></div>
+        <p id="vldname"></p>
+        <div>Email: <input type="email" id="email" required ></div>
+        <p id="vldemail"></p>
+        <div>Số điện thoại: <input type="number" id="phone" required ></div>
+        <p id="vldphone"></p>
+        <div>
+            Giới tính:
+            <input type="radio" name="gender" value="Nam">Nam
+            <input type="radio" name="gender" value="Nu">Nữ
+        </div>
+        <div>Ngày đến: <input type="date" id="dayin" required ></div>
+        <p id="vlddayin"></p>
+        <div>Ngày đi: <input type="date" id="dayout" required ></div>
+        <p id="vlddayout"></p>
+        <div>Số người lớn: <input type="number" id="adults" required ></div>
+        <p id="vldadults"></p>
+        <div>Số trẻ em: <input type="number" id="children" required ></div>
+        <p id="vldchildren"></p>
+        <div><button id="submit" onclick="validate()">Submit</button></div>
+    </form>
+
+</body>
+</html>

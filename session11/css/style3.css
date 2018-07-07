@@ -1,0 +1,17 @@
+#container{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3%;
+    height: 5%;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 3%;
+    height: 5%;
+}
