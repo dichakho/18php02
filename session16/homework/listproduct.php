@@ -37,7 +37,7 @@
 				echo "<td>".$row['price']."</td>";
 				echo "<td>".$row['quantity']."</td>";
 				echo "<td>
-				<a href='edit/add_product.php'>Thêm</a> | <a href='edit/update_product.php?product_id=".$row['product_id']."'>Sửa</a> | <a href='edit/delete_product.php?product_id=".$row['product_id']."'>Xóa</a>
+				<a href='edit/add_product.php'>Thêm</a> | <a href='edit/update_product.php?idEdit=".$row['product_id']."'>Sửa</a> | <a href='edit/delete_product.php?product_id=".$row['product_id']."'>Xóa</a>
 				</td>";		
 				echo "</tr>";
 

@@ -8,7 +8,7 @@
 	<?php
 
 		if (isset($_GET['product_id'])) {
-			$product_id = $_GET['product_id'];
+			$product_id = $_GET['idEdit'];
 			$conn = new mysqli('localhost', 'root', '', 'demo');
 				
 				if (! $conn) {
