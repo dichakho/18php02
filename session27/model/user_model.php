@@ -31,9 +31,9 @@ class UserModel extends ConnectDB{
 		$conn = new ConnectDB();
 		$sql = "DELETE FROM categories WHERE id = $id";
 		if (mysqli_query($conn->connect(),$sql)) {
-			echo "Delete success";
+			return 'Delete success';
 		}else{
-			echo "Delete fail";
+			return "Delete fail";
 		}
 	}
 	function login($username, $pwd){

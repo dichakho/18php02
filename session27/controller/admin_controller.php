@@ -84,10 +84,13 @@ class AdminController{
 				}
 					break;
 				case 'delete':
-					include 'views/admin/categories/delete.php';
 					$id = $_GET['idDel'];
+					// var_dump($id);
+					// exit();
 					$userModel = new UserModel();
-					$userModel->addCategory($id);
+					$resultDel = $userModel->deleteCategory($id);
+					include 'views/admin/categories/list.php';
+
 					break;
 				default:
 					# code...

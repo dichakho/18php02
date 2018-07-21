@@ -7,6 +7,9 @@ include 'views/admin/common/header.php';
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">List categories</h1>
+            <?php if (isset($resultDel)) {
+            	echo $resultDel ;
+            } ?>
             <p><a href="admin.php?controller=categories&action=add">Add new category</a></p>
 			<?php
 				$conn = new ConnectDB();
@@ -39,7 +42,7 @@ include 'views/admin/common/header.php';
 							<td>
 								<?php
 									echo " <a href='edit_product.php?idEdit=$id' class='btn btn-primary'>EDIT</a>";
-									echo " <a href='admin.php?controller=categories&action=delete' class='btn btn-danger'>DELETE</a>";
+									echo " <a href='admin.php?controller=categories&action=delete&idDel=$id' class='btn btn-danger'>DELETE</a>";
 									echo "<br>";
 								?>
 							</td>
