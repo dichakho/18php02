@@ -35,7 +35,7 @@
 							</td>
 							<td>
 								<?php
-									echo "<img src='/session27/public/imgs/".$row['image']."'>";
+									echo "<img src='/session27/public/admin/imgs/".$row['image']."'>";
 								?>
 							</td>
 							<td>
