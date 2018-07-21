@@ -42,5 +42,8 @@ class UserModel{
 			echo "Add fail";
 		}
 	}
+	// function changeUrl($link){
+	// 	return;
+	// }
 }
 ?>

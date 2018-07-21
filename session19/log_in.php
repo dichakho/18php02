@@ -46,6 +46,7 @@
 					$userInfo['role'] = $row['role'];
 					
 				}
+
 				$_SESSION['userInfo'] = $userInfo;
 				echo "Login success!";
 			}else{

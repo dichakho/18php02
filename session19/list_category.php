@@ -47,7 +47,7 @@
                       <?php
                         $id = $row['id'];
                         echo " <a href='edit_category.php?idEdit=$id' class='btn btn-primary'>EDIT</a>";
-                        echo "  <a href='delete_category.php?idDel=$id' class='btn btn-danger'>DELETE</a>";
+                        echo "<a href='delete_category.php?idDel=$id' class='btn btn-danger'>DELETE</a>";
                       ?>
                     </td>
                   </tr>

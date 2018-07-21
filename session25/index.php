@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,7 +6,6 @@
 	<style>
 		.menu{
 			width: 100%;
-			/*margin: 0 auto;*/
 		}
 		ul{
 			display: flex;
